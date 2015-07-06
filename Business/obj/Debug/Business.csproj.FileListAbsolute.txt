@@ -1,0 +1,5 @@
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\cpbrwatch\Business\bin\Debug\Business.dll.config
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\cpbrwatch\Business\bin\Debug\Business.dll
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\cpbrwatch\Business\bin\Debug\Business.pdb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\cpbrwatch\Business\obj\Debug\Business.dll
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\cpbrwatch\Business\obj\Debug\Business.pdb

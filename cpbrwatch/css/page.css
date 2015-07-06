@@ -1,0 +1,68 @@
+﻿#divFrame
+{
+    margin:0 0 0 8%;
+    vertical-align:top;
+    max-width:800px;
+}
+
+.divDescricao
+{
+    text-align:left; 
+    vertical-align:top;
+    margin:0px 12px 2px 8px;
+    font-size:9pt;
+    max-height:420px;
+    overflow:scroll;
+    overflow-x:hidden;
+    height:100%;
+}
+
+.divDescricao h4
+{
+    margin:4px 0;
+}
+
+.gridview
+{
+    text-align:center; 
+    /*margin:0 4%;*/
+    float:left;
+}
+
+.emptydatatext
+{
+    color:#CDC9C9;
+}
+
+.pagin {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+  width:100%;
+}
+
+.pagin a
+{
+    background-color:Black;
+    text-decoration:none;
+    color:#fff;
+    padding:5px 20px;
+}
+
+.pagin a:hover 
+{
+    text-decoration:none;
+    background-color:#F5F5F5;
+    color:#696969;
+}
+
+.pagin span
+{
+    padding:22px 16px;
+}
+
+.clear
+{
+    clear:both;
+}

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsVideo" targetNamespace="http://tempuri.org/dsVideo.xsd" xmlns:mstns="http://tempuri.org/dsVideo.xsd" xmlns="http://tempuri.org/dsVideo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Business.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsVideo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsVideo" msprop:Generator_UserDSName="dsVideo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="video" msprop:Generator_TableClassName="videoDataTable" msprop:Generator_TableVarName="tablevideo" msprop:Generator_TablePropName="video" msprop:Generator_RowDeletingName="videoRowDeleting" msprop:Generator_RowChangingName="videoRowChanging" msprop:Generator_RowEvHandlerName="videoRowChangeEventHandler" msprop:Generator_RowDeletedName="videoRowDeleted" msprop:Generator_UserTableName="video" msprop:Generator_RowChangedName="videoRowChanged" msprop:Generator_RowEvArgName="videoRowChangeEvent" msprop:Generator_RowClassName="videoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="titulo" msprop:Generator_ColumnVarNameInTable="columntitulo" msprop:Generator_ColumnPropNameInRow="titulo" msprop:Generator_ColumnPropNameInTable="tituloColumn" msprop:Generator_UserColumnName="titulo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="url" msprop:Generator_ColumnVarNameInTable="columnurl" msprop:Generator_ColumnPropNameInRow="url" msprop:Generator_ColumnPropNameInTable="urlColumn" msprop:Generator_UserColumnName="url" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="classificacao" msprop:Generator_ColumnVarNameInTable="columnclassificacao" msprop:Generator_ColumnPropNameInRow="classificacao" msprop:Generator_ColumnPropNameInTable="classificacaoColumn" msprop:Generator_UserColumnName="classificacao" type="xs:int" minOccurs="0" />
+              <xs:element name="situacao" msprop:Generator_ColumnVarNameInTable="columnsituacao" msprop:Generator_ColumnPropNameInRow="situacao" msprop:Generator_ColumnPropNameInTable="situacaoColumn" msprop:Generator_UserColumnName="situacao" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:video" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
